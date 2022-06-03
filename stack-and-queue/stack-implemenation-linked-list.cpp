@@ -60,3 +60,13 @@ int main(){
     cout<<st.Empty()<<endl;
     cout<<st.Top();
 }
+
+/*
+Output:
+10
+5
+3
+1
+Stack is empty
+-1
+*/
