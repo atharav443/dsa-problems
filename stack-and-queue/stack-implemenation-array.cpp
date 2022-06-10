@@ -68,5 +68,6 @@ Output:
 5
 3
 1
+Stack is empty
 -1
  */
