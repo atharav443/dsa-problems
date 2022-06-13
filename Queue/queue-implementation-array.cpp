@@ -76,3 +76,11 @@ int main(){
      cout<<q.Empty()<<endl;
 
 }
+/*
+Output:
+10
+20
+30
+40
+1
+*/

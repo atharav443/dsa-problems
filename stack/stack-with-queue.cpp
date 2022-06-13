@@ -1,4 +1,4 @@
-// Implementation of stack using queue
+// Implementation of stack using queue with push costly method
 
 #include<iostream>
 #include<algorithm>
