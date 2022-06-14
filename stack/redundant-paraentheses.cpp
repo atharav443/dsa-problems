@@ -1,3 +1,6 @@
+//Check Valid paraentheses in given expression ,if redundant bracket is 
+// present ,return 1,otherwise 0. 
+
 #include<iostream>
 #include<stack>
 using namespace std;
@@ -32,3 +35,10 @@ int main(){
    cin>>s1;
    cout<<Redundant(s1);
 }
+/*
+Enter the expression:((a+b))
+1
+
+Enter the expression:(x+y)
+0
+*/
