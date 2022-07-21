@@ -1,3 +1,25 @@
+/* Bubble Sort:Sort the last element in first round, similarly 
+second last element in second round.
+arr= 4 6 7 1  29 32 11 33
+
+Round I : 4  6  1  7 29 11 32 | 33
+Round II: 4  1  6  7 11 29 | 32 33
+Round III : 1 4 6 7  11 |29 32 33
+Round IV: 1 4 6 7 | 11 29 32 33
+Round V: 1 4 6 | 7  11 29 32 33
+Round VI : 1 4 | 6 7  11 29 32 33
+Round VII:1 | 4 6 7  11 29 32 33
+
+Array is sorted : 1 4 6 7  11 29 32 33
+
+T.C : 
+   Best Case: O(n)
+   Worst Case: O(n^2)
+S.C: O(n)
+*/
+
+
+
 #include<iostream>
 using namespace std;
 
@@ -24,3 +46,8 @@ int main(){
         cout<<arr[i]<<" ";
     }
 }
+
+/*
+Output:
+  Sorted array: 1 4 6 7 11 29 32 33 
+*/
