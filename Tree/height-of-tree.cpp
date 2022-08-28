@@ -16,8 +16,6 @@ class node
     right=NULL;
   }
 
-  
-
 };
 
 node* buildTree(node* root){
@@ -40,7 +38,7 @@ node* buildTree(node* root){
 
 }
 
-  void levelOrderTraversal(node* root){
+void levelOrderTraversal(node* root){
     queue<node*>q;
     q.push(root);
     q.push(NULL);

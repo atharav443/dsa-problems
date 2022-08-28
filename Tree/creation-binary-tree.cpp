@@ -15,10 +15,9 @@ class node
     left=NULL;
     right=NULL;
   }
-
-  
-
 };
+
+
 node* buildTree(node* root){
     int data;
     cout<<"Enter the data:";
@@ -39,7 +38,8 @@ node* buildTree(node* root){
 
 }
 
-  void levelOrderTraversal(node* root){
+
+void levelOrderTraversal(node* root){
     queue<node*>q;
     q.push(root);
     q.push(NULL);
@@ -67,6 +67,7 @@ node* buildTree(node* root){
         }
     }
   }
+
 
 void inorder(node* root){   
     // INORDER=LNR

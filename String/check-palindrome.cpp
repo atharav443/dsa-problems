@@ -11,12 +11,12 @@ vector<char> toLowercase(char ch[]){
        else{
          char temp=ch[i]-'A'+'a';
          V.push_back(temp);
-         
        }
     }
     return V;
-    
 }
+
+
 bool checkPalindrome(char ch[],int n){
     int s=0;
     int e=n-1;

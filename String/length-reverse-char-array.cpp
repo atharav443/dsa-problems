@@ -7,7 +7,6 @@ void reverse(char name[],int length){
     while(s<e){
         swap(name[s++],name[e--]);
     }
-    
 }
 int getLength(char name[]){
     int count=0;
